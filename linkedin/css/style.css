@@ -1,0 +1,726 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    @media screen {max-width: 100%;
+        
+    }
+    
+}
+body
+/*navgation bar */
+nav {
+    display: flex;
+    align-items: center;
+    box-shadow: whitesmoke;
+    height: 80px;
+}
+.box
+{
+    margin: 10px;
+}
+.box > i{
+    padding-left: 100px;
+    color: rgb(54, 54, 120);
+}
+
+.search
+{
+width: 350px;
+height: 40px;
+background-color: rgb(191, 213, 232);
+display: flex;
+align-items: center;
+}
+.search > i {
+    
+    margin: 10px;
+
+}
+.search > input
+{
+ flex: 1;
+ height: 40px;
+ border: none;
+ background-color:rgb(191, 213, 232);;
+ font-size:20px;
+}
+.work
+{
+    position: relative;
+    left: 150px;
+    margin: 19px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.work > a {
+position: relative;
+text-decoration: none;
+color: grey;
+margin: 20px;
+
+
+}
+.work a i 
+{
+ position: relative;
+ top: 5px;
+ margin: 12px; 
+ 
+}
+
+
+.line{
+    position: relative;
+    background-color: black;
+    height: 50px;
+    width: 2px;
+    left: 150px;
+    
+}
+.try
+{
+   
+    position: relative;
+    left: 160px;
+}
+.try > img 
+{
+height: 30px;
+width: 30px;
+position:relative ;
+top: 10px;
+
+}
+/* header*/
+.header{
+    position: relative;
+    background-color: rgb(248, 238, 225);
+    
+}
+/*left panel*/
+.left_panel
+{
+    background-color: white;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    height: 800px;
+    width: 300px;
+    border-radius: 20px;
+}
+.imge{
+    height: 80px;
+    width: 300px;
+    background: linear-gradient(140deg,rgba(247, 17, 74, 0.916),rgb(169, 214, 9));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display : flex;
+    align-items: center;
+    
+}
+.imge > img
+{
+
+    height: 90px;
+    width: 80px;
+    position: relative;
+    left: 100px;
+    top: 40px;
+    border-radius: 40px;
+}
+.note{
+    
+    height: 350px;
+    border:1px solid gainsboro;
+    background-color:white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.note  h1 {
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+.note > p{
+     position: relative;
+     top: 50px;
+     left: 26px;
+     font-size: 20px;
+}
+.Line{
+    height: 1px;
+    width: 300px;
+    background-color:gainsboro;
+    position: absolute;
+    top: 200px;
+}
+.con > span {
+    position: relative;
+    top: 80px;
+    color: darkgrey;
+    left: 5px;
+}
+.con > p
+{
+ position: relative;
+ left: 250px;
+ top: 40px;
+ color: blue;
+ font-size: 20px;
+ padding: 15px;
+}
+.con > h3
+ {
+    position: relative;
+    top: 90px;
+    left: 5px;
+    font-size: 13px;
+ }
+ .con > h4 {
+    position: relative;
+    left: 5px;
+    font-size: 17px;
+    color: slategray;
+    top: 5px;
+    
+ }
+ #line
+ {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+      width: 300px;
+      height: 1px;
+      background-color:gainsboro;
+ }
+ .access
+ {
+    position: relative;
+    top: 35px;
+    left: 10px;
+ }
+ .access > p {
+    color: grey;
+    font-size: 15px;
+ }
+ .linee
+ {
+    position: absolute;
+    top: 380px;
+    width: 300px;
+    height: 1px;
+    background-color:gainsboro;
+ }
+ .book
+ {
+    font-size: 20px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    
+ }
+ .book > span
+ {
+   position: relative;
+   margin-left: 10px
+ }
+ .recent
+ {
+    border: 1px solid gainsboro;
+    
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    
+ }
+ .recent >p
+ {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    
+ }
+.recent ul li
+{
+    position:relative;
+    left: 10px;
+    top: 20px;
+    margin: 7px;
+    list-style-type: none;
+    color: gray;
+     
+}
+.recent >span
+{
+ color: blue;
+ position: relative;
+ top: 25px;
+ left: 15px;
+ 
+ 
+}
+.recent > i
+{
+    position: relative;
+    top: 30px;
+}
+    /* middel panel*/
+.middle {
+    background-color:white;
+    height: 130px;
+    width: 670px;
+    position: relative;
+    bottom: 770px;
+    left: 420px;
+    border-radius: 12px;
+    display: flex;
+
+
+}
+.middle > a{
+    margin: 35px;
+    position: relative;
+    text-decoration: none;
+    top: 55px;
+    display: flex;
+    font-size: 18px;
+    
+}
+.middle a i {
+ position:relative;
+ right: 5px;
+ color: hotpink;
+ 
+   
+}
+.item  {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    width: 500px;
+    height: 50px;
+
+
+}
+.item > input {
+    position: absolute;
+    left: 70px;
+     width: 900px;
+     height: 50px;
+     border-radius: 30px;
+     font-size: 20px;
+     
+
+
+}
+.item >img{
+    height: 50px;
+    width: 50px;
+}
+.myntra
+{
+  height: 100px;
+  width: 670px;
+  background-color: white;
+  position: absolute;
+  top: 180px;
+  left: 420px;
+}
+.myntra >img
+{
+   position: absolute;
+   
+   height: 70px;
+   width: 50px;
+   right: 590px;
+   top: 15px;
+}
+.myntra > h5{
+    position:relative;
+    left: 90px;
+    top: 22px;
+    font-size: 20px;
+}
+.myntra > p {
+     color: gray;
+     position: relative;
+     left: 90px;
+     top: 25px;
+     font-size: 13px;
+}
+.myntra > i{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 25px;
+}
+.fashion
+{
+    
+    height: 500px;
+    background-color: white;
+}
+.fashion > img{
+    position: absolute;
+    top: 85px;
+    height: 400px;
+}
+.like > img
+{
+  clip-path: circle();
+  height: 15px;
+  position: relative;
+   bottom: 60px;
+   left: 10px;
+}
+.like > p{
+    position: relative;
+    bottom: 80px;
+    left: 90px;
+    color: grey;
+}
+.like > span
+{
+    position: relative;
+    font-size: 15px;
+    color: grey;
+    bottom: 70px;
+}
+.lines
+{
+    position: absolute;
+    background-color: gainsboro;
+    height: 1px;
+    width: 700px;
+    top: 520px;
+}
+.like > i{
+    position: relative;
+    margin: 10px;
+    bottom: 70px;
+
+}
+.myntra > i{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 25px;
+}
+
+.yash
+{
+    height: 730px;
+    width: 670px;
+    background-color:white;
+    position: relative;
+    left: 420px;
+    bottom: 180px;
+}
+.new > img
+{
+    position: relative;
+    left: 20px;
+    height: 90px;
+    width: 90px;
+}
+.new > h5{
+    position:relative;
+    left: 120px;
+    bottom: 70px;
+    font-size: 20px;
+}
+.new > p {
+    color: gray;
+    position: relative;
+    left: 120px;
+    bottom: 70px;
+    font-size: 13px;
+}
+.new > i{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 25px;
+}
+.new > span{
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    font-size: 18px;
+}
+.log > img
+{
+    position: relative;
+    top: 40px;
+    height: 450px;
+}
+.in > img
+{
+  clip-path: circle();
+  height: 15px;
+  position: relative;
+   top: 50px;
+   left: 10px;
+}
+.in > p{
+    position: relative;
+    top: 30px;
+    left: 100px;
+    color: grey;
+}
+.in > span
+{
+    position: relative;
+    font-size: 15px;
+    color: grey;
+    top: 65px;
+    left: 15px;
+    margin: 10px;
+}
+.in > i{
+    position: relative;
+    left: 10px;
+    top: 65px;
+    font-size: 15px;
+}
+.lined
+{
+    position: absolute;
+    background-color: gainsboro;
+    height: 1px;
+    width: 700px;
+    top: 685px;
+}
+/* right panel */
+.right
+{
+    background-color:white;
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    height: 330px;
+    width: 330px;
+    border-radius: 10px;
+}
+.right > h2
+{
+    position: relative;
+    margin: 15px;
+    
+}
+.right >i{
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    top: 13px;
+}
+.right ul li
+{
+     position: relative;
+     left: 30px;
+     font-size: 18px;
+     margin: 5px;
+     font-weight: bold;
+     
+}
+.right  ul p
+{
+    color: grey;
+    position: relative;
+    left: 30px;
+    margin: 1px;
+}
+.today
+{
+    background-color:white;
+    position: absolute;
+    top: 400px;
+    right: 80px;
+    height: 230px;
+    width: 330px;
+    border-radius: 10px;
+}
+.today > h2
+{
+    position: relative;
+    margin: 15px;
+    font-size: 20px;
+}
+.today >i{
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    top: 13px;
+}
+.today ul li
+{
+     position: relative;
+     left: 30px;
+     font-size: 18px;
+     margin: 9px;
+     font-weight: bold;
+     
+}
+.today  ul p
+{
+    color: grey;
+    position: relative;
+    left: 30px;
+    margin: 1px;
+
+}
+.add
+{
+    width: 330px;
+    height: 420px;
+    background-color: white;
+    position: absolute;
+    bottom: 595px;
+    right: 80px;
+    border-radius: 10px;
+}
+.add > h3
+{
+  margin: 10px;
+  font-size: 25px;
+}
+.add > i
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+}
+.unilever > img
+{
+height: 40px;
+width: 40px;
+margin: 5px;
+position: relative;
+top: 30px;
+}
+.unilever > p {
+    position: relative;
+    left: 50px;
+    bottom: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.unilever > span
+{
+    position: relative;
+    left: 50px;
+    bottom: 25px;
+    color: grey;
+    font-size: 11px;
+}
+.unilever > button 
+{
+    width: 170px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: white;
+    position: relative;
+    right: 110px;
+    top: 10px;
+}
+.uni
+{
+    position: relative;
+    width: 400px;
+    height: 1px;
+    background-color: gray;
+    top: 20px;
+}
+.linkedin > img
+{
+height: 40px;
+width: 40px;
+margin: 5px;
+position: relative;
+top: 30px;
+border-radius: 5px;
+}
+.linkedin > p {
+    position: relative;
+    left: 50px;
+    bottom: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.linkedin > span
+{
+    position: relative;
+    left: 50px;
+    bottom: 25px;
+    color: grey;
+    font-size: 11px;
+}
+.linkedin > button 
+{
+    width: 120px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: white;
+    position: relative;
+    right: 55px;
+    top: 10px;
+}
+.lin
+{
+    width: 400px;
+    height: 1px;
+    background-color: gray;
+    position: relative;
+    top: 25px;
+}
+.int > img
+{
+height: 40px;
+width: 40px;
+margin: 5px;
+position: relative;
+top: 30px;
+}
+.int > p {
+    position: relative;
+    left: 50px;
+    bottom: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.int > span
+{
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    color: grey;
+    font-size: 11px;
+}
+.int > button 
+{
+    width: 120px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: white;
+    position: relative;
+    right: 50px;
+    top: 10px;
+}
+.tra
+{
+    width: 400px;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 25px;
+}
+
